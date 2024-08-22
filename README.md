@@ -6,13 +6,6 @@ npx create-react-app gestao_escritorio_advocacia_web
 
 npm install axios react-router-dom
 
-### Instalar a biblioteca de front Material UI:
-
-npm install @mui/material @emotion/react @emotion/styled
-
-### Instalar o Material-UI Icons, que é usado no exemplo do template:
-npm install @mui/icons-material
-
 ### rodar a aplicação 
 
 npm start
@@ -25,7 +18,13 @@ npm start
 
 npm audit fix --force
 
-### instalar a biblioteca material MUI 
+### instalar o chakra UI 
+npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion
+
+
+
+
+
 
 
 

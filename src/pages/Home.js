@@ -1,20 +1,14 @@
+// Home.js
 import React from 'react';
-import Sidebar from '../components/Sidebar';
+import SidebarWithHeader from '../components/Sidebar';
 
-const Home = () => {
+function Home() {
   return (
-    <div className="wrapper">
-      <Sidebar />
-      <div className="content-wrapper">
-        {/* Conteúdo principal da página */}
-        <div className="content">
-          <div className="container-fluid">
-            <h1>Welcome to the Home Page</h1>
-          </div>
-        </div>
-      </div>
-    </div>
+    <SidebarWithHeader>
+      <h1>Welcome to the Home Page</h1>
+      {/* Conteúdo adicional da página */}
+    </SidebarWithHeader>
   );
-};
+}
 
 export default Home;
